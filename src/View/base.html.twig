@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %} BASE {% endblock %}</title>
+    {% block stylesheet %}
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/style.css">
+    {% endblock %}
+</head>
+
+<body>
+
+    {% block header %}
+<header>
+        <div class="container-fluid barremenu">
+            <div class="row">
+                <div class="col-2">
+                    <a href="#">Twig Quest</a>
+                </div>
+                <div class="col-2">
+                    <a href="#">Home</a>
+                </div>
+                <div class="col-2">
+                    <a href="#">Produits</a>
+                </div>
+                <div class="col-2">
+                    <a href="#">Inscription</a>
+                </div>
+                <div class="col-2 ">
+                    <a href="#">Mon Panier</a>
+                </div>
+                <div class="col-2 ">
+                    <a href="#">About us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+    {% endblock %}
+
+{% block content %}
+    Tout est magique
+{% endblock %}
+
+</body>
+</html>

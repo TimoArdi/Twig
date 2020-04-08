@@ -1,0 +1,12 @@
+{
+    "name": "wilder/phptwig",
+    "authors": [
+        {
+            "name": "TimoArdi",
+            "email": "t.ardilouze@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}
